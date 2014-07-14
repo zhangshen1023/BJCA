@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bdeabb7a-0d04-4e0f-a308-3b3a4b735c83" name="zhangshen@BJCA-ZHANGSHEN 2014-07-14 17:18:26" runUser="bjca-zhangshen\zhangshen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="7b2c842e-9ae3-4f5a-a75f-e323dd5262e8">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="zhangshen_BJCA-ZHANGSHEN 2014-07-14 17_18_26">
+      <DeploymentItem filename="E:\Users\zhangshen\Downloads\WatiN-2.1.0.1196\bin\net40\WatiN.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-14T17:18:26.0212973+08:00" queuing="2014-07-14T17:18:26.0743003+08:00" start="2014-07-14T17:18:26.0803007+08:00" finish="2014-07-14T17:18:28.6684487+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="e:\users\zhangshen\documents\visual studio 2010\projects\testprojectra01\testprojectra01\bin\debug\testprojectra01.dll" id="30a88e92-950a-3a4f-92e2-1e52726d39b8">
+      <Execution id="b65d1619-e9fa-486c-881c-99b542225660" />
+      <TestMethod codeBase="E:/Users/zhangshen/Documents/Visual Studio 2010/Projects/TestProjectRA01/TestProjectRA01/bin/Debug/TestProjectRA01.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectRA01.UnitTest1, TestProjectRA01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="30a88e92-950a-3a4f-92e2-1e52726d39b8" executionId="b65d1619-e9fa-486c-881c-99b542225660" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b65d1619-e9fa-486c-881c-99b542225660" testId="30a88e92-950a-3a4f-92e2-1e52726d39b8" testName="TestMethod1" computerName="BJCA-ZHANGSHEN" duration="00:00:02.3546840" startTime="2014-07-14T17:18:26.0843009+08:00" endTime="2014-07-14T17:18:28.6314466+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b65d1619-e9fa-486c-881c-99b542225660">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 TestProjectRA01.UnitTest1.TestMethod1 引发了异常: 
+System.Runtime.InteropServices.COMException: 对 COM 组件的调用返回了错误 HRESULT E_FAIL。</Message>
+          <StackTrace>    在 mshtml.HTMLDocumentClass.IHTMLDocument2_get_parentWindow()
+   在 WatiN.Core.Native.InternetExplorer.IEElement.get_ParentWindow()
+   在 WatiN.Core.Native.InternetExplorer.IEElement.GetJavaScriptElementReference()
+   在 WatiN.Core.Native.InternetExplorer.IEFireEventHandler.CreateJavaScriptFireEventCode(NameValueCollection eventObjectProperties, String eventName)
+   在 WatiN.Core.Native.InternetExplorer.IEFireEventHandler.FireEvent(String eventName, NameValueCollection eventProperties, Boolean noWait)
+   在 WatiN.Core.Native.InternetExplorer.IEElement.FireEvent(String eventName, NameValueCollection eventProperties)
+   在 WatiN.Core.Native.InternetExplorer.IEElement.Select()
+   在 WatiN.Core.TextField.Select()
+   在 WatiN.Core.Actions.TypeTextAction.TypeAppendClearText(String value, Boolean append, Boolean clear)
+   在 WatiN.Core.Actions.TypeTextAction.TypeText(String value)
+   在 WatiN.Core.TextField.TypeText(String value)
+   在 TestProjectRA01.UnitTest1.TestMethod1() 位置 E:\Users\zhangshen\Documents\Visual Studio 2010\Projects\TestProjectRA01\TestProjectRA01\UnitTest1.cs:行号 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

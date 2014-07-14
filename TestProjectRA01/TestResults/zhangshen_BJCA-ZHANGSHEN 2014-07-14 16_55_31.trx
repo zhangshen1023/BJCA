@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6e40eb05-9ad8-4914-9c47-b007fa08a2a9" name="zhangshen@BJCA-ZHANGSHEN 2014-07-14 16:55:31" runUser="bjca-zhangshen\zhangshen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="7b2c842e-9ae3-4f5a-a75f-e323dd5262e8">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment userDeploymentRoot="E:\Users\zhangshen\Documents\Visual Studio 2010\Projects\TestProjectRA01\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="zhangshen_BJCA-ZHANGSHEN 2014-07-14 16_55_31">
+      <DeploymentItem filename="E:\Users\zhangshen\Downloads\WatiN-2.1.0.1196\bin\net40\WatiN.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-14T16:55:31.3516707+08:00" queuing="2014-07-14T16:55:33.9538195+08:00" start="2014-07-14T16:55:34.0688261+08:00" finish="2014-07-14T16:56:17.6883210+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="e:\users\zhangshen\documents\visual studio 2010\projects\testprojectra01\testprojectra01\bin\debug\testprojectra01.dll" id="30a88e92-950a-3a4f-92e2-1e52726d39b8">
+      <Execution id="5bdb931c-ca0f-4565-aeb8-f6c68a1387a1" />
+      <TestMethod codeBase="E:/Users/zhangshen/Documents/Visual Studio 2010/Projects/TestProjectRA01/TestProjectRA01/bin/Debug/TestProjectRA01.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectRA01.UnitTest1, TestProjectRA01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="30a88e92-950a-3a4f-92e2-1e52726d39b8" executionId="5bdb931c-ca0f-4565-aeb8-f6c68a1387a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5bdb931c-ca0f-4565-aeb8-f6c68a1387a1" testId="30a88e92-950a-3a4f-92e2-1e52726d39b8" testName="TestMethod1" computerName="BJCA-ZHANGSHEN" duration="00:00:42.3433402" startTime="2014-07-14T16:55:34.1798325+08:00" endTime="2014-07-14T16:56:17.3513017+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bdb931c-ca0f-4565-aeb8-f6c68a1387a1">
+    </UnitTestResult>
+  </Results>
+</TestRun>

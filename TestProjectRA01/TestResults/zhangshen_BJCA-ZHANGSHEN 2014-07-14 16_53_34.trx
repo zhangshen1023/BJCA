@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9b0f76cb-c324-4127-9e44-89e2dde580da" name="zhangshen@BJCA-ZHANGSHEN 2014-07-14 16:53:34" runUser="bjca-zhangshen\zhangshen" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="7b2c842e-9ae3-4f5a-a75f-e323dd5262e8">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="zhangshen_BJCA-ZHANGSHEN 2014-07-14 16_53_34">
+      <DeploymentItem filename="E:\Users\zhangshen\Downloads\WatiN-2.1.0.1196\bin\net40\WatiN.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-14T16:53:34.8420067+08:00" queuing="2014-07-14T16:53:37.3511502+08:00" start="2014-07-14T16:53:37.4641567+08:00" finish="2014-07-14T16:54:37.4085853+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="e:\users\zhangshen\documents\visual studio 2010\projects\testprojectra01\testprojectra01\bin\debug\testprojectra01.dll" id="30a88e92-950a-3a4f-92e2-1e52726d39b8">
+      <Execution id="68b36e5f-5156-4730-b708-1a50f89f6d06" />
+      <TestMethod codeBase="E:/Users/zhangshen/Documents/Visual Studio 2010/Projects/TestProjectRA01/TestProjectRA01/bin/Debug/TestProjectRA01.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProjectRA01.UnitTest1, TestProjectRA01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="30a88e92-950a-3a4f-92e2-1e52726d39b8" executionId="68b36e5f-5156-4730-b708-1a50f89f6d06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="68b36e5f-5156-4730-b708-1a50f89f6d06" testId="30a88e92-950a-3a4f-92e2-1e52726d39b8" testName="TestMethod1" computerName="BJCA-ZHANGSHEN" duration="00:00:59.4282610" startTime="2014-07-14T16:53:37.5501616+08:00" endTime="2014-07-14T16:54:37.3585825+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68b36e5f-5156-4730-b708-1a50f89f6d06">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 TestProjectRA01.UnitTest1.TestMethod1 引发了异常: 
+WatiN.Core.Exceptions.ElementNotFoundException: Could not find INPUT (hidden) or INPUT (password) or INPUT (text) or INPUT (textarea) or TEXTAREA element tag matching criteria: Attribute 'id' equals 'txtPass' at res://ieframe.dll/dnserror.htm#http://192.168.131.22/raweb/weblogin.aspx</Message>
+          <StackTrace>    在 WatiN.Core.Element.get_NativeElement()
+   在 WatiN.Core.Element.GetAttributeValueImpl(String attributeName)
+   在 WatiN.Core.Component.GetAttributeValue(String attributeName)
+   在 WatiN.Core.Element.get_Enabled()
+   在 WatiN.Core.Actions.TypeTextAction.CheckIfTypingIsPossibleInThisTextField()
+   在 WatiN.Core.Actions.TypeTextAction.TypeAppendClearText(String value, Boolean append, Boolean clear)
+   在 WatiN.Core.Actions.TypeTextAction.TypeText(String value)
+   在 WatiN.Core.TextField.TypeText(String value)
+   在 TestProjectRA01.UnitTest1.TestMethod1() 位置 E:\Users\zhangshen\Documents\Visual Studio 2010\Projects\TestProjectRA01\TestProjectRA01\UnitTest1.cs:行号 17
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

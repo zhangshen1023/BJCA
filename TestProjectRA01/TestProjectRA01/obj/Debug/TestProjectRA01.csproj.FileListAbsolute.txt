@@ -1,0 +1,7 @@
+e:\users\zhangshen\documents\visual studio 2010\Projects\TestProjectRA01\TestProjectRA01\bin\Debug\TestProjectRA01.dll
+e:\users\zhangshen\documents\visual studio 2010\Projects\TestProjectRA01\TestProjectRA01\bin\Debug\TestProjectRA01.pdb
+e:\users\zhangshen\documents\visual studio 2010\Projects\TestProjectRA01\TestProjectRA01\bin\Debug\WatiN.Core.dll
+e:\users\zhangshen\documents\visual studio 2010\Projects\TestProjectRA01\TestProjectRA01\bin\Debug\WatiN.Core.xml
+e:\users\zhangshen\documents\visual studio 2010\Projects\TestProjectRA01\TestProjectRA01\obj\Debug\TestProjectRA01.dll
+e:\users\zhangshen\documents\visual studio 2010\Projects\TestProjectRA01\TestProjectRA01\obj\Debug\TestProjectRA01.pdb
+E:\Users\zhangshen\Documents\Visual Studio 2010\Projects\TestProjectRA01\TestProjectRA01\obj\Debug\TestProjectRA01.csprojResolveAssemblyReference.cache
